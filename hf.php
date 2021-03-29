@@ -1,10 +1,10 @@
 <?php
 header('content-type:image/png');
 //$img = imagecreatetruecolor(100, 100);
-$img = imagecreatefrompng ('logo.png') ;
+$img = imagecreatefrompng ('alap.png') ;
 $zold = imagecolorallocate($img, 0, 255, 0);
 $feher = imagecolorallocatealpha($img, 255, 255, 255, 50);
-$adatok = getimagesize('logo.png');
+$adatok = getimagesize('alap.png');
 $w = $adatok[0];
 $h = $adatok[1];
 
